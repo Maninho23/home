@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+    }
+    footer{
+        background-color: blueviolet;
+        padding: 30px;
+        color: cadetblue;
+    }
+
+#TopMenu{
+    display: flex;
+    background-color: blue;
+    margin: 0;
+}
+#TopMenu li{
+    color: white;
+    text-decoration: nome;
+    display: block;
+    padding: 15px;
+}
+#TopMenu li:first-child{
+    margin-right: auto;
+}
+.section1{
+    display: flex;
+    height: 33vw;
+    background-color: aqua; 
+    
+
+}
+.centralize{
+    margin: auto;
+    text-align: center;
+}
+.section2{
+    display: flex;
+    height: 33vw;
+    background-color:white; 
+}
+.imagemProjeto{
+    width: 16vw;
+    height: 16vw;
+    padding-left: 20px  ;
+}
+.section3{
+    display: flex;
+    height: 33vw;
+    background-color: rgba(49, 46, 46, 0.247); 
+}
+.botaoVermelho{
+    background-color: darkmagenta;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.imagemProjeto2{
+    width: 35vw;
+    height: 25vw;
+    padding-left: 20px  ;
+}
+.imagemProjeto1{
+    width: 30vw;
+    height: 25vw;
+    padding-left: 20px  ;
+    }
+</style>
+<body>
+    <nav >
+        <ul id="TopMenu">
+            <li>Logo</li>
+            <li>Nome</li>
+            <li>Projetos</li>
+            <li>Contatos</li>
+        </ul>
+    </nav>
+    <div class="section1">
+       <div class="centralize">
+            <h1 style="color: cornsilk;">Marcio Martins</h1>
+           <a  href="#projetos"> <button class="botaoVermelho">Meus Portifolio</button></a>
+       </div> 
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td style="width: 40%;"><img class="imagemProjeto1" src="https://cdn.blog.vindi.com.br/wp-content/uploads/2017/02/como-saber-se-meus-dados-criptografados-estao-seguros.jpg" alt=""></td>
+                <td style="width: 60%;text-align: left;">
+                    <ul style="color:rgb(7, 17, 105)">
+                    Meus Dados
+                    <hr>
+                    <li>Meu nome e Marcio Martins tenho 23 anos, nascido em Florianopolis SC.</li>
+                    <li> Solteiro, 2 ano do Ensino Medio(Cursando), Cursado em Libras, Curso gratuito de HTML e CSS, JavaScript. Prof. Gustavo Guanabara(Membro do GitHub)Cursando </li>
+                    <li>Av. das Rendeiras 356/ CEP: 88062-400</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section3 centralize">
+        <table class="centralize">
+            <tr>
+
+                <td style="width: 60%;text-align: left;">
+                    <ul style="color:rgb(7, 17, 105)">
+                    Experiencia Profissional
+                    <hr>
+                    <li>Flex Contact Center / Inicio: 04/2015 Fim: 06/2018  </li>
+                    <li>Marina Mega jet / Inicio: 09/2019 Fim: 08/2020</li>
+                    <li>Freelancer Restaurante Baleeira</li>
+                    <li>Freelancer Estudio de Som</li>
+                </ul></td>
+                <td style="width: 40%;"> <img class="imagemProjeto2" src="http://gestao3pontozero.com.br/wp-content/uploads/2018/11/Experi%C3%AAncia.jpg" alt=""></td>
+            </tr>
+        </table>
+    </div>
+    <div id="projetos" class="section2 centralize">
+        <table class="centralize">
+            <tr>
+                <td style="width: 40%;"><img class="imagemProjeto" src="https://eufacoprogramas.com/wp-content/uploads/2014/01/desenvolvimento-php-mysql.jpg" alt=""></td>
+                <td style="width: 60%;text-align: left;">
+                    <ul style="color:rgb(7, 17, 105)">
+                    Carta de Apresentacao 
+                    <hr>
+                    <li>Após 3 anos de experiência em vendas, a area da programação passou a despertar meu interesse. E há oito meses, 'ao me encontrar num periodo de transição de carreira resolvi encarar o desafio e desde então, venho maratonando vídeos na área de desenvolvimento e programação. Além disso, também procurei realizar exercícios no assunto possibilitando assim a assimilação dos conhecimentos adquiridos. E è por isso, que quando vi a publicação da vaga decidi me inscrever prontamente, pois vejo neste trabalho a oportunidade de aplicar o que venho aprendendo de forma prática.'  </li>
+                    <li>Gracas ao meu apurado senso de organização, disciplina e concentração, sempre obtive avaliações positivas dos meus superiores. A  minha experiência em HTML, CSS e JavaScript. Somada com a minha dedicação e energia 
+                        tra-ra otimos resultados para a empresa.</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h5 class="centralize">Criado por Marcio</h5>
+    </footer>
+</body>
+</html>
